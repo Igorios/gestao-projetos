@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital@1&family=Cormorant+Garamond:ital,wght@1,500&family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+/* body {
+    min-height: 100vh;
+    max-width: 100vw;
+} */
+
+li {
+    /* padding: 5px 0px; */
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+a, .logo { 
+    text-decoration: none;
+    color: rgb(247, 240, 240);
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Chivo',sans-serif;
+} 
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+nav {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+}
+
+.container {
+    height: calc(100vh - 220px);
+    background: no-repeat center/cover url(./image/head01-650.jpg); 
+}
+
+/*Texto central*/
+.friday {
+    max-width: 400px;
+    margin: 150px auto;
+}
+
+.friday h1 {
+    font-size: 40px;
+    text-align: center;
+    /* color: rgb(63, 63, 63); */
+    color: black;
+    font-weight: bolder;
+}
+
+.friday p {
+    font-size: 40px;
+    /* color: rgb(63, 63, 63); */
+    color: rgb(22, 10, 10);
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+/*Marca*/
+.marca-children h2 {
+    display: flex;
+    width: 100%; 
+    justify-content: space-around;
+    margin: 20px 10px;
+    font-family: 'Fira Sans', sans-serif;
+} 
+
+/*Cards*/
+.div-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.div-main {
+    margin: 20px 20px;
+    box-shadow: 0 0 5px rgb(49, 48, 48);
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+img {
+    padding: 5px 5px;
+    width: 100%;
+    height: 100%;
+} 
+
+.botao {
+    width: 80%;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+/*Rodapé*/
+footer {
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    margin: 2px 0px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    #cont-dad{ 
+        width: 100%; 
+    }
+
+    li {
+        margin: 4px 4px;
+    }
+}

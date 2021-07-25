@@ -1,0 +1,98 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+/*Papel de parede*/
+body {
+    background-image: url('./imagem/foto-body05.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*Pai do card*/
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+/*Card responsável pelos dados do cliente*/
+.card {
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #ffffff81;
+    box-shadow: 1px 2px 4px 1px #000000b0;
+}
+
+/*Meus inputs*/
+.input-dados input {
+    display: inline-block;
+    width: 100%;
+    min-width: 180px;
+    padding: 5px 5px;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #783309;
+    background-color: transparent; 
+    outline: none;
+    font-size: 16px;
+    transition: all .3s ease-out;
+}
+
+.input-dados {
+    position: relative;
+    padding-top: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.input-dados input:focus {
+    border-bottom: 2px solid #9c620a;
+}
+
+.input-dados label {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+/*Efeito do usuário e senha*/
+.input-dados input:focus + label,
+.input-dados input:valid + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: #9c620a7a;
+}
+
+/*Trabalhando com o botão*/
+button {
+    background-color: transparent; 
+    border-color: #00000088;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 13px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+    outline: none; 
+}
+
+button:hover {
+    background-color: #9c620a;
+    color: white;
+    transition: all .4s ease-out;
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+}
+
