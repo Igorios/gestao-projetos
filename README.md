@@ -1,4 +1,4 @@
-<h1>Cadastrando clientes e produtos</h1>
+<h2>Cadastrando clientes e produtos</h2>
 
 <a href= https://igorios.github.io/gestao-projetos>Entrar</a>
 
